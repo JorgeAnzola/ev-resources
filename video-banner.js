@@ -7,7 +7,7 @@
 // Insert the HTML block as the first child of .leftColumn
 // leftColumn.insertAdjacentHTML('afterbegin', htmlBlock);
 
-
+console.log('External JS loaded');
 // Selecciona el iframe de YouTube dentro del contenedor especificado
 const videoContainer = document.querySelector('.block.full_width_widget.banner_widget .resource-youtube iframe');
 
