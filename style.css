@@ -102,3 +102,16 @@ body {
     padding: 10px;
     margin: 5px;
   }
+
+  .calendar_btn {
+    display: none;
+  }
+  
+  .catalog_item .profile_header .profile_info .alignR .link_button {
+    border-radius: 0px!important;
+  }
+
+  .default_image, .r-catalog-tile {
+    border-radius: 0px!important;
+    border: 0px;
+  }
