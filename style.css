@@ -96,3 +96,9 @@ body {
     border-radius: 0!important;
     border: 0!important;
   }
+
+  .profile_header .label.box {
+    color: black;
+    padding: 10px;
+    margin: 5px;
+  }
