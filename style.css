@@ -66,7 +66,7 @@ tbody.highlightLesson .modern_module_row ~ tr:last-of-type td,
     background: #F8F5F0 !important;
 }
 
-.profile_name {
+.profile_name, .profile_header .label.box {
     color: black !important;
 }
 
@@ -78,12 +78,16 @@ table {
     margin: 10px 0 20px !important;
 }
 
-.profile_header .label.box {
-    color: black;
-    padding: 10px;
-    margin: 5px;
-}
-
 .catalog_item .profile_header .profile_info .alignR .link_button {
     border-radius: 0 !important;
+}
+
+#user-menu, #user-menu > ol, #user-menu::before, header .mobileSearch {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+a.rightMobileBar i:after, .quickLinks > a > i:after, .quickLinks > a.header_cart i:after, 
+.quickLinks > div > a > i:after, .quickLinks button i:after, .linkHome i:after {
+    background-image: url("data:image/svg+xml, <SVG PATH>") !important;
 }
