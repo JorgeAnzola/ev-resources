@@ -21,20 +21,22 @@ if (sectionTitle) {
         <div class="ja1-header">
             <nav class="ja1-navbar">
                 <ul class="ja1-menu">
-                    <li><a href="#">Inicio</a></li>
+                    <li><a href="/">Inicio</a></li>
                 </ul>
                 <div class="ja1-menu-toggle" onclick="ja1ToggleMenu()">☰</div>
                 <ul id="ja1-menu-items" class="ja1-menu-items">
+                    <li><a href="/class_catalog">Cursos</a></li>
+                    <li><a href="/main_catalog">Catálogo</a></li>
                     <li class="ja1-has-dropdown">
-                        <a href="#">Servicios</a>
+                        <a href="#">Usuarios</a>
                         <ul class="ja1-dropdown">
-                            <li><a href="#">Diseño Gráfico</a></li>
-                            <li><a href="#">Desarrollo Web</a></li>
-                            <li><a href="#">Marketing</a></li>
+                            <li><a href="/friends">Amigos</a></li>
+                            <li><a href="/my_instructors/index">Mis instructores</a></li>
+                            <li><a href="/my_circle">Mi círculo</a></li>
                         </ul>
                     </li>
-                    <li><a href="#">Nosotros</a></li>
-                    <li><a href="#">Contacto</a></li>
+                    <li><a href="/locker/list">Recursos</a></li>
+                    <li><a href="https://leadhub.engelvoelkers.com/es/935bd72f-ff9b-46cc-b0c9-6c6cbde8309d/dashboard" target="_blank">E&V Advanced</a></li>
                 </ul>
             </nav>
         </div>
