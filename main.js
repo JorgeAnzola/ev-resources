@@ -1,4 +1,6 @@
 // Función para alternar la visibilidad del menú
+console.log('external js loaded');
+
 function ja1ToggleMenu() {
     const menuItems = document.getElementById("ja1-menu-items");
     menuItems.style.display = menuItems.style.display === "block" ? "none" : "block";
@@ -21,7 +23,7 @@ if (sectionTitle) {
         <div class="ja1-header">
             <nav class="ja1-navbar">
                 <ul class="ja1-menu">
-                    <li><a href="/">Inicio</a></li>
+                    <li><a href="/user_dashboard">Inicio</a></li>
                 </ul>
                 <div class="ja1-menu-toggle" onclick="ja1ToggleMenu()">☰</div>
                 <ul id="ja1-menu-items" class="ja1-menu-items">
