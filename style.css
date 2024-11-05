@@ -91,3 +91,5 @@ a.rightMobileBar i:after, .quickLinks > a > i:after, .quickLinks > a.header_cart
 .quickLinks > div > a > i:after, .quickLinks button i:after, .linkHome i:after {
     background-image: url("data:image/svg+xml, <SVG PATH>") !important;
 }
+
+.difSignIn, input[type="submit"], input[type="button"], button, .mainNav .cta a, header, #facebox .header, #chatContainer .header, .chatHeader, .mobileSearch, .ui-datepicker .ui-datepicker-buttonpane button, .ui-datepicker .ui-widget-header, .select2-results .select2-highlighted, .select2-container-multi .select2-choices .select2-search-choice, .messageOptions li a, .optionsRibbon ul.inverted li a, .section-intro p.number, .jconfirm .jconfirm-box div.title, .options_btn.inverted, .quiz_match_choice.ui-draggable-dragging, #fullscreen_msg_holder .header, .vex .vex-header, .link_button, .senders-placeholder span, .popover-stack .popover-header { background: white!important}
