@@ -22,7 +22,7 @@ function ja1InitializeMenu() {
         sectionTitle.innerHTML = `
             <div class="ja1-header">
                 <a href="/" class="ja1-logo">
-                    <img src="https://engelvoelkers.matrixlms.eu/files/515944/EV_Logo_RGB.png" alt="Logo" />
+                    <img src="https://cdn.jsdelivr.net/gh/jorgeanzola/ev-resources@latest/assets/EV_Logo_RGB.png" alt="Logo" />
                 </a>
                 <nav class="ja1-navbar">
                     <div class="ja1-menu-toggle" onclick="ja1ToggleMenu()">☰</div>
