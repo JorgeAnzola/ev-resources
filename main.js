@@ -22,6 +22,9 @@ if (sectionTitle) {
     sectionTitle.innerHTML = `
         <div class="ja1-header">
             <nav class="ja1-navbar">
+                <div class="ja1-logo">
+                    <img src="path-to-logo.png" alt="Logo" />
+                </div>
                 <ul class="ja1-menu">
                     <li><a href="/user_dashboard">Inicio</a></li>
                 </ul>
