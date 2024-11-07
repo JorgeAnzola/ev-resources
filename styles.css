@@ -320,3 +320,52 @@ padding-top: 90px;
 .ja1-navbar {
 width: 100%;
 }
+
+#submit_button {
+  background: #E60000;
+border-radius: 0 !important;
+color: black;
+}
+
+#loginForm {
+border-radius: 0 !important;
+box-shadow: none!important;
+}
+
+#submit_button {
+  background: #E60000;
+border-radius: 0 !important;
+color: black;
+}
+
+#loginForm, .avatar, .img_holder, .img {
+border-radius: 0 !important;
+box-shadow: none!important;
+}
+
+.staticMainNav {
+display: none;
+}
+
+#submit_button {
+  background: #E60000;
+border-radius: 0 !important;
+color: black;
+}
+
+#loginForm, .avatar, .img_holder, .img, .dropDown, .dDownShow {
+border-radius: 0 !important;
+box-shadow: none!important;
+}
+
+.staticMainNav {
+display: none;
+}
+
+.dropDownHolder > a:hover, .quickLinks > a:hover, .quickLinks .dropDownHolder > a:focus, .quickLinks > a:focus, .highlight {
+background: white;
+color: red;
+filter: none!important;
+  box-shadow: none!important;
+border: 0;
+}
