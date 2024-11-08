@@ -389,3 +389,15 @@ border: 0;
 .link_button {
   background-color: #E60000!important;
 }
+
+.link_button {
+  background-color: #E60000!important;
+}
+
+#fixedSectionHeader {
+  top: 80px!important;
+}
+
+.linkHome {
+  visibility: hidden;
+}
