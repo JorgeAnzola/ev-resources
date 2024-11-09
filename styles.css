@@ -7,6 +7,10 @@
     font-family: "EVHead", sans-serif;
   }
 
+  .section_nav_holder {
+    top: 80px;
+  }
+
   .swiper-slide, .classes_widget, .catalog_boxes, .site_full_width, .catalog_boxes > .draggable, 
   .rightColumn, .class_desktop_filter_holder, .sticky, .block, .options_btn, .optionsRight, 
   .img_holder > .img, .profile_header_nav, .profile_header .profile_background, 
@@ -400,4 +404,10 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.sectionLink.inverted, .header-nav {
+  background: #D60000!important;
+  border-radius: 0px!important;
+
 }
