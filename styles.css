@@ -414,6 +414,7 @@
   width: 100%;
   overflow: hidden;
   position: relative;
+  padding-top: calc(500 / 1600 * 100%);
 }
 
 .ja1-video-container video {
