@@ -10,6 +10,21 @@
   .section_nav_holder {
     top: 80px;
   }
+  
+  .modern_module_row > td,   .modern_module_row > td > a:hover, .modern_module_wrap:hover {
+    border-radius: 0px!important;
+    border: 0px;
+  }
+  
+  .user_progress {
+    border-radius: 0px;
+    border: 0px!important;
+  }
+  
+  .completed {
+    background: #82c59c!important;
+    color:white!important;
+  }
 
   .swiper-slide, .classes_widget, .catalog_boxes, .site_full_width, .catalog_boxes > .draggable, 
   .rightColumn, .class_desktop_filter_holder, .sticky, .block, .options_btn, .optionsRight, 
@@ -74,6 +89,10 @@
     color: black;
     padding: 10px;
     margin: 5px;
+  }
+  
+  .vex-content {
+    border-radius: 0px!important;
   }
 
   .catalog_item .profile_header .profile_info .alignR .link_button {
