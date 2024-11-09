@@ -24,18 +24,18 @@
   }
 
   .headerVideo {
-    position: relative;
-    padding-top: 56.25%;
+    position: relative; 
+    padding-top: 56.25%; 
     overflow: hidden;
   }
 
   .headerVideo > iframe {
-    position: absolute;
+    position: absolute; 
     top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border: none;
+    left: 0; 
+    width: 100%; 
+    height: 100%; 
+    border: none; 
     pointer-events: none;
   }
 
@@ -77,195 +77,327 @@
   }
 
   #user-menu, #user-menu > ol, #user-menu::before, header .mobileSearch {
-    display: none !important;
-    visibility: hidden !important;
+  display:none!important;
+  visivility: hidden!important;
+  }
+
+  a.rightMobileBar i:after, .quickLinks > a > i:after, .quickLinks > a.header_cart i:after, .quickLinks > div > a > i:after, .quickLinks button i:after, .linkHome i:after {
+  background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='280' viewBox='0 0 20 280'%3E%3Cg id='uuid-658e9147-5b06-4e53-8609-eefe8ccf9e9f'%3E%3Cpath id='uuid-0e3f6ac2-4275-40d1-b2fb-d7d073edfb8e' d='m15.16,231.09l-1.16-.09v4c0,1.05-.95,2-2,2h-6c-1.05,0-2-.96-2-2v-4l-1,.09c-.56-.13-2.02-1.06.91-3.32l4-3.43c.23-.17.47-.31.72-.43v-.23c.15,0,.3.03.44.07.14-.04.29-.07.44-.07v.23c.26.12.5.26.72.43l4,3.43c2.93,2.26,1.48,3.2.91,3.33Z' style='fill:currentColor; fill-rule:evenodd;'/%3E%3Cpath id='uuid-4e26a46f-fe71-4853-beb8-65ddcaff85d7' d='m14.53,213.37l1.36-4.92s.74-2.33-2.16-4.1c-.4-.31-.52-.87-.28-1.31.07-.45-.23-.87-.68-.94-.03,0-.06,0-.09,0h-.02c-.43-.2-.94-.02-1.14.41,0,.01-.01.03-.02.04-.03.51-.42.93-.92,1-3.43.13-4,2.51-4,2.51l-1.36,4.92c-.43,1.22-1.6,2.02-2.89,2l-.33,1.2,6.82,1.81h.02l6.84,1.73.33-1.2c-1.13-.6-1.73-1.88-1.47-3.13Zm-7.23,2.58c-.35.7-.06,1.55.65,1.9.1.05.21.09.32.11.79.22,1.6-.24,1.83-1.02.02-.08.04-.17.05-.25l-2.85-.73Z' style='fill:currentColorfff; fill-rule:evenodd;'/%3E%3Cpath id='uuid-a9126380-ff58-4240-ac96-e78bc8cc3f27' d='m15.48,188.8c-1.12-.94-4.87-4.47-4.87-4.47-.62-.75-1.74-.86-2.49-.24-.09.07-.17.15-.24.24l-4,3.43c-2.93,2.26-1.47,3.19-.91,3.32v4.66c0,1.05.41,1.27,1.46,1.27h2.61v-4.03c-.15-.35.01-.75.36-.89.12-.05.25-.07.38-.04h2.37c.42,0,.79.3.88.72,0,.64.05,4.25.05,4.25h2.48c1.05,0,1.46-.29,1.46-1.33v-4.66c1.54,0,1.54-1.4.47-2.22Zm-.48-5.2c.04-.29-.17-.56-.46-.6-.06,0-.12,0-.18,0h-1.64c-.28-.09-.58.07-.67.35-.01.05-.02.1-.02.15v.69l2.96,2.68v-3.28h0Z' style='fill:currentColorfff; fill-rule:evenodd;'/%3E%3Cpath id='uuid-d2a22831-fd47-46aa-ac9d-0ef7c60cb9fd' d='m10.23,170.14l-4.43-5.26,1.23-1.11,5.54,6.37-5.54,6.37-1.23-1.11,4.43-5.26Z' style='fill:currentColorfff; fill-rule:evenodd;'/%3E%3Cpath id='uuid-a0d20a7f-d98c-4827-9f66-de93765945ab' d='m2,144v12l16-.03v-11.96H2Zm15.38,11.43l-5.46-4.19-1.88,1.24-1.71-1.23-5.86,4.08,5.01-4.98-4.95-5.43,7.51,6,7.37-6.23-4.68,5.59,4.65,5.14Z' style='fill:currentColorfff; fill-rule:evenodd;'/%3E%3Cpath id='uuid-804a921a-463a-4fb7-b22e-17f4c2f1c3a3' d='m3.85,122.38l2.26,3.62h11.18s-1.91,7-1.91,7H5.79l-3.92-9.71,1.98-.91Zm9.19,12.2c.92,0,1.67.75,1.67,1.67s-.75,1.67-1.67,1.67-1.67-.75-1.67-1.67h0c0-.92.75-1.67,1.67-1.67h0Zm-6.08,0c.92,0,1.67.75,1.67,1.67s-.75,1.67-1.67,1.67-1.67-.75-1.67-1.67c0,0,0,0,0,0,0-.92.75-1.67,1.67-1.67h0Z' style='fill:currentColorfff; fill-rule:evenodd;'/%3E%3Cpath id='uuid-91241d4b-e388-473b-bb87-f96f384caeda' d='m9.19,91.18l5.26-4.43,1.11,1.23-6.36,5.54-6.36-5.54,1.11-1.23,5.26,4.43Z' style='fill:currentColorfff; fill-rule:evenodd;'/%3E%3Cpath id='uuid-dee79cec-3011-4b9c-b3ee-fba6d016c5d7' d='m18.17,76.47l-3.94-4.13c2.01-3.15,1.09-7.33-2.06-9.35-3.15-2.01-7.33-1.09-9.35,2.06-2.01,3.15-1.09,7.33,2.06,9.35,2.32,1.48,5.32,1.41,7.56-.19l3.85,4.04c.49.52,1.31.54,1.83.04.52-.49.54-1.31.04-1.83Zm-14.33-7.77c0-2.59,2.1-4.69,4.69-4.68,2.59,0,4.69,2.1,4.68,4.69,0,2.59-2.1,4.68-4.69,4.68-2.59,0-4.69-2.1-4.69-4.69,0,0,0,0,0,0Z' style='fill:currentColorfff; fill-rule:evenodd;'/%3E%3Cpath id='uuid-04c166bb-dd5e-4806-8619-b3efa938e07c' d='m3,42h13c.52,0,1,.48,1,1v14c0,.52-.37,1-.89,1H3c-.52,0-1-.48-1-1v-13.96c0-.52.48-1.04,1-1.04Zm3.64,5.58h1.87c-.02-.32.11-.63.34-.85.23-.19.52-.3.82-.29.34-.02.67.1.91.35.22.27.34.61.32.96,0,.35-.09.7-.28,1-.2.31-.45.59-.74.83-.41.29-.76.64-1.05,1.05-.21.42-.3.89-.27,1.36h1.9c-.01-.29.03-.59.13-.87.12-.25.3-.47.53-.63.48-.32.9-.72,1.22-1.2.32-.46.49-1,.49-1.56.04-.77-.27-1.51-.84-2.04-.65-.53-1.47-.8-2.31-.75-.79-.04-1.58.2-2.21.67-.58.47-.89,1.2-.83,1.94v.02Zm3.82,7.5v-2h-1.91v2.01h1.92,0Z' style='fill:currentColorfff; fill-rule:evenodd;'/%3E%3Cpath id='uuid-52016911-6fd7-4d2e-a4d1-a0036b99b756' d='m16,38H3c-.55,0-1-.45-1-1v-14c0-.55.45-1,1-1h13c.55,0,1,.45,1,1v14c0,.55-.45,1-1,1Zm-4-1v-2h-2v2h2Zm-3,0v-2h-2v2h2Zm-6,0h3v-2h-3v2Zm3-11h-3v2h3v-2Zm0,3h-3v2h3v-2Zm-3,3v2h3v-2h-3Zm6-6h-2v2h2v-2Zm0,3h-2v2h2v-2Zm-2,3v2h2v-2h-2Zm5-6h-2v2h2v-2Zm0,3h-2v2h2v-2Zm-2,3v2h2v-2h-2Zm6-6h-3v2h3v-2Zm0,3h-3v2h3v-2Zm0,3h-3v2h3v-2Zm-3,3v2h3v-2h-3Z' style='fill:currentColorfff; fill-rule:evenodd;'/%3E%3Cpath id='uuid-e8978c07-adeb-4f7f-a058-0ab7ad51c0f4' d='m17.91,7.97c-1.28,1.19-5.95,5.54-6.4,6.03-.37.49-.92.83-1.52.93h0c-.61-.1-1.15-.44-1.52-.93-.44-.48-5.12-4.84-6.4-6.03-.04.16-.06.32-.06.48v7.84c0,.31.07.62.21.9l3.75-4.3c.06-.08.17-.1.25-.04.01.01.03.02.04.04.08.1.08.25,0,.35l-3.78,4.33c.24.27.16.43.52.43h13c.36,0,1.26-.16,1.5-.43l-3.77-4.33c-.08-.1-.08-.25,0-.35.06-.08.17-.1.25-.04.01.01.03.02.04.04l3.75,4.3c.14-.28.21-.59.21-.9v-7.84c0-.16-.02-.32-.06-.48Zm-13.34-.14c.01-.58.46-1.05,1.04-1.09h8.74c.58.04,1.03.51,1.04,1.09v1.41l2.09-1.91s-6.23-5.04-6.53-5.22c-.28-.23-.62-.39-.97-.45h0c-.36.06-.7.22-.97.45-.3.18-6.53,5.22-6.53,5.22l2.09,1.91v-1.41Z' style='fill:currentColorfff; fill-rule:evenodd;'/%3E%3Cg%3E%3Crect x='12' y='106' width='2' height='10' style='fill:currentColorfff;'/%3E%3Crect x='6' y='106' width='2' height='10' style='fill:currentColorfff;'/%3E%3Crect x='9' y='106' width='2' height='10' style='fill:currentColorfff;'/%3E%3Cpath d='m12,103v-1h-4v1H2v2h2v12c0,.55.45,1,1,1h10c.55,0,1-.45,1-1v-12.02l2,.02v-2h-6Zm3,14H5v-12h10v12Z' style='fill:currentColorfff; fill-rule:evenodd;'/%3E%3C/g%3E%3Cg%3E%3Cpolygon points='15.78 242 9 242 9 246 10 246 9.78 246 12 247.91 12 250 12 252 12 253 18 253 18 243.91 15.78 242' style='fill:currentColorfff; fill-rule:evenodd;'/%3E%3Cpolygon points='9 249 9 247 2 247 2 258 3 258 11 258 11 249 9 249' style='fill:currentColorfff; fill-rule:evenodd;'/%3E%3C/g%3E%3C/g%3E%3Cg id='uuid-a2f6502d-8741-4105-9ba7-2ca7608afb93'%3E%3Cpath id='uuid-d36dd347-a447-47fb-853b-b79622bd52cd' d='m17.66,272.35l.34-1.94-1.92-.34c.02-.76-.1-1.52-.36-2.24l1.66-.96-.99-1.7-1.65.95c-.37-.47-.8-.88-1.28-1.23l.78-1.68-1.78-.83-.77,1.66c-.23-.07-.45-.12-.69-.17-.36-.06-.73-.09-1.1-.09l-.32-1.78-1.94.34.31,1.77c-.58.2-1.13.48-1.62.84l-1.27-1.27-1.39,1.39,1.27,1.27c-.36.49-.64,1.04-.83,1.62l-1.78-.32-.34,1.94,1.8.32c0,.78.15,1.56.44,2.29l-1.62.93.99,1.7,1.65-.95c.38.45.81.85,1.3,1.17l-.81,1.75,1.78.83.82-1.77c.17.05.34.09.52.12.39.07.79.1,1.2.09l.34,1.94,1.94-.34-.34-1.95c.54-.19,1.05-.46,1.51-.8l1.41,1.41,1.39-1.4-1.4-1.41c.34-.46.61-.97.8-1.51l1.94.34Zm-4.83-1.92c-.28,1.59-1.8,2.65-3.39,2.37-1.59-.28-2.65-1.8-2.37-3.39.28-1.59,1.8-2.65,3.39-2.37,1.59.28,2.65,1.8,2.37,3.39h0Z' style='fill:currentColor; fill-rule:evenodd;'/%3E%3C/g%3E%3C/svg%3E")
   }
 
   .searchHolder .search {
-    color: black;
+  color: black;
   }
 
   .leftColumn {
-    width: 100% !important;
+  width: 100%!important;
   }
 
   #wrapper > header > div.quickLinks > a.username > span {
-    color: black;
+  color: black;
   }
 
   .ja1-has-dropdown > a::after {
-    background-image: url("data:image/svg+xml,%3Csvg fill='%%23000000' height='800px' width='800px' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 407.437 407.437' xml:space='preserve'%3E%3Cpolygon points='386.258,91.567 203.718,273.512 21.179,91.567 0,112.815 203.718,315.87 407.437,112.815'/%3E%3C/svg%3E");
-    background-size: 16px 16px;
-    background-repeat: no-repeat;
-    background-position: right center;
+  background-image: url("data:image/svg+xml,%3Csvg fill='%%23000000' height='800px' width='800px' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 407.437 407.437' xml:space='preserve'%3E%3Cpolygon points='386.258,91.567 203.718,273.512 21.179,91.567 0,112.815 203.718,315.87 407.437,112.815'/%3E%3C/svg%3E");
+  background-size: 16px 16px; /* Adjust size as needed */
+  background-repeat: no-repeat;
+  background-position: right center; /* Position the chevron */
   }
 
+
+  /* Rotate chevron outline when dropdown is visible */
   .ja1-has-dropdown > a:hover::after {
-    transform: rotate(180deg);
+  transform: rotate(180deg);
   }
 
   #mainContent {
-    width: 90%;
-    margin: auto;
+  width: 90%;
+  margin: auto;
   }
 
   #leftColumn {
-    display: none;
+  display: none;
   }
 
   #wrapper > footer {
-    left: 0;
-    width: 100%;
+  left: 0;
+  width:100%;
   }
 
   .quickLinks {
-    margin: auto;
+  margin: auto;
   }
 
   .sectionTitle {
-    overflow: visible !important;
+  overflow: auto!important;
+  overflow: visible!important;
   }
 
   .ja1-header {
-    background-color: #fff;
-    margin: auto;
+  background-color: #fff;
+  margin: auto;
   }
 
   .ja1-navbar {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-width: 1200px;
-    margin: 0 auto;
+  display: flex;
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+  max-width: 1200px;
+  margin: 0 auto;
+  // padding: 10px;
   }
 
   .ja1-menu,
   .ja1-menu-items,
   .ja1-dropdown {
-    list-style-type: none;
+  list-style-type: none; /* Remove bullets */
   }
 
   .ja1-menu {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center; /* Center vertically */
   }
 
   .ja1-menu > li {
-    margin-right: 20px;
+  margin-right: 20px;
   }
 
   .ja1-menu > li > a {
-    color: black;
-    text-decoration: none;
-    padding: 10px 15px;
-    display: block;
-    transition: background-color 0.3s ease;
+  color: black;
+  text-decoration: none;
+  padding: 10px 15px;
+  display: block;
+  transition: background-color 0.3s ease;
   }
 
   .ja1-menu > li > a:hover {
-    background-color: #444;
+  background-color: #444;
   }
 
   .ja1-menu-toggle {
-    display: none;
-    cursor: pointer;
-    color: black;
-    font-size: 24px;
+  display: none;
+  cursor: pointer;
+  color: black;
+  font-size: 24px;
   }
 
   .ja1-menu-items {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center; /* Center vertically */
   }
 
   .ja1-menu-items li {
-    position: relative;
-    margin-right: 20px;
+  position: relative;
+  margin-right: 20px;
   }
 
   .ja1-menu-items > li > a {
-    color: black;
-    text-decoration: none;
-    padding: 10px 15px;
-    display: block;
+  color: black;
+  text-decoration: none;
+  padding: 10px 15px;
+  display: block;
   }
 
   .ja1-menu-items > li > a:hover {
-    color: #D10302;
+  color: #D10302;
   }
 
   .ja1-header {
-    display: flex;
-    align-items: right;
-    justify-content: space-between;
-    padding: 0 20px;
-    position: relative;
-    z-index: 10;
+  display: flex;
+  align-items: right;
+  justify-content: space-between;
+  padding: 0 20px;
+  position: relative;
+  z-index: 10;
   }
 
+  .ja1-logo {
+  display: flex;
+  align-items: center;
+  float: left;
+  }
+
+  .ja1-nav {
+  display: flex;
+  gap: 1rem;
+  }
+
+  /* When menu collapses */
+  @media (max-width: 768px) {
+  .ja1-nav {
+    display: none; /* Or configure to toggle on click */
+  }
+  }
   .ja1-logo img {
-    max-height: 50px;
-    width: auto;
+  max-height: 50px; /* Adjust this value as needed */
+  width: auto; /* Keeps the logo's aspect ratio */
   }
 
   .ja1-dropdown {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    background-color: #fff;
-    padding: 5px 0;
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  padding: 5px 0;
   }
 
   .ja1-dropdown li a {
-    padding: 10px 15px;
-    color: black;
-    text-decoration: none;
-    display: block;
-    white-space: nowrap;
+  padding: 10px 15px;
+  color: black;
+  text-decoration: none;
+  display: block;
+  white-space: nowrap;
   }
 
   .ja1-dropdown li a:hover {
-    background-color: #fff;
+  background-color: #fff;
     color: #D10302;
   }
 
+  /* Show dropdown on hover */
   .ja1-menu-items > li:hover .ja1-dropdown {
+  display: block;
+  }
+
+  .ja1-has-dropdown > a::after {
+  content: "";
+  display: inline-block;
+  width: 10px; /* Set desired width */
+  height: 10px; /* Set desired height */
+  background-image: url("data:image/svg+xml,%3Csvg fill='%%23000000' height='800px' width='800px' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 407.437 407.437' xml:space='preserve'%3E%3Cpolygon points='386.258,91.567 203.718,273.512 21.179,91.567 0,112.815 203.718,315.87 407.437,112.815'/%3E%3C/svg%3E");
+  background-size: contain; /* Scale background image */
+  background-repeat: no-repeat; 
+  vertical-align: middle; /* Align with text */
+  margin-left: 8px; /* Space between text and chevron */
+  }
+
+
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+  .ja1-menu-toggle {
     display: block;
+    margin-left: auto;
   }
 
-  .ja1-video-container {
-    width: 100%;
-    overflow: hidden;
-    position: relative;
-    padding-top: calc(500 / 1600 * 100%);
-  }
-
-  .ja1-video-container video {
+  /* Hide menu items except "Home" and menu icon */
+  .ja1-menu-items {
+    display: none;
+    flex-direction: column;
+    align-items: flex-start; /* Align dropdown items to left */
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 60px; /* Space for navbar */
+    right: 0;
     width: 100%;
-    height: 100%;
-    object-fit: cover;
+    background-color: #333;
   }
 
-  .link_button {
-    background-color: #E60000 !important;
+  .ja1-menu-items li {
+    width: 100%;
+    text-align: left;
+    padding-left: 20px;
+  }
+
+  .ja1-dropdown {
+    position: static;
+  }
+
+  .ja1-dropdown li a {
+    padding: 10px;
+  }
+  }
+
+  .difSignIn, .mainNav .cta a, header, #facebox .header, #chatContainer .header, .chatHeader, .mobileSearch, .ui-datepicker .ui-datepicker-buttonpane button, .ui-datepicker .ui-widget-header, .select2-results .select2-highlighted, .select2-container-multi .select2-choices .select2-search-choice, .messageOptions li a, .optionsRibbon ul.inverted li a, .section-intro p.number, .jconfirm .jconfirm-box div.title, .options_btn.inverted, .quiz_match_choice.ui-draggable-dragging, #fullscreen_msg_holder .header, .vex .vex-header, .link_button, .senders-placeholder span, .popover-stack .popover-header { background: white!important}
+
+  header, .ja1-header {
+  height: 80px;
+  }
+
+  #wrapper {
+  padding-top: 90px;
+  }
+
+  .ja1-navbar {
+  width: 100%;
   }
 
   #submit_button {
     background: #E60000;
-    border-radius: 0 !important;
-    color: black;
+  border-radius: 0 !important;
+  color: black;
   }
 
-  #loginForm, .avatar, .img_holder, .img, .dropDown, .dDownShow {
-    border-radius: 0 !important;
-    box-shadow: none !important;
+  #loginForm {
+  border-radius: 0 !important;
+  box-shadow: none!important;
+  }
+
+  #submit_button {
+    background: #E60000;
+  border-radius: 0 !important;
+  color: black;
+  }
+
+  #loginForm, .avatar, .img_holder, .img {
+  border-radius: 0 !important;
+  box-shadow: none!important;
   }
 
   .staticMainNav {
-    display: none;
+  display: none;
   }
+
+  #submit_button {
+    background: #E60000;
+  border-radius: 0 !important;
+  color: black;
+  }
+
+  #loginForm, .avatar, .img_holder, .img, .dropDown, .dDownShow {
+  border-radius: 0 !important;
+  box-shadow: none!important;
+  }
+
+  .staticMainNav {
+  display: none;
+  }
+
+  .dropDownHolder > a:hover, .quickLinks > a:hover, .quickLinks .dropDownHolder > a:focus, .quickLinks > a:focus, .highlight {
+  background: white;
+  color: red;
+  filter: none!important;
+    box-shadow: none!important;
+  border: 0;
+  }
+
+  .link_button {
+    background-color: #E60000!important;
+  }
+
+  .link_button {
+    background-color: #E60000!important;
+  }
+
+  #fixedSectionHeader {
+    top: 80px!important;
+  }
+
+  .linkHome {
+    visibility: hidden;
+  }
+}
+
+.ja1-video-container {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.ja1-video-container video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
