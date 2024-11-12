@@ -429,5 +429,16 @@
 .sectionLink.inverted, .header-nav {
   background: #D60000!important;
   border-radius: 0px!important;
-
 }
+
+
+.class_name {
+  text-align: center!important
+  }
+  .link_button {
+  border-radius: 0px;
+  }
+  .award_boxes > div {
+    border: 0px!important;
+    border-radius: 0px;
+  }
