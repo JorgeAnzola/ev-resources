@@ -431,10 +431,15 @@
   border-radius: 0px!important;
 }
 
+  .class_name {
+    text-align: center!important;
+    color: black!important;
+    }
+  
+  .header > h2 {
+    color: black!important;
+    }
 
-.class_name {
-  text-align: center!important
-  }
   .link_button {
   border-radius: 0px;
   }
