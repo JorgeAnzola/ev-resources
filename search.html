@@ -1,0 +1,203 @@
+<script>
+  function removeHeroSection() {
+    alert("remove hero section");
+  }
+  // Function to get the query parameter from the URL
+  function getQueryParam(param) {
+    const urlParams = new URLSearchParams(window.location.search);
+    return urlParams.get(param);
+  }
+
+  // Function to prefill the search input, checkboxes, and dropdown
+  function prefillForm() {
+    const searchQuery = getQueryParam("name"); // Get the 'name' query parameter
+    if (searchQuery) {
+      document.getElementById("compact_filter_phrase").value = searchQuery; // Set the input field value
+    }
+
+    // Loop through the checkboxes and set them based on the URL query parameters
+    const checkboxParams = [
+      "school",
+      "all",
+      "favorites",
+      "personal",
+      "all_personal",
+    ];
+    checkboxParams.forEach((param) => {
+      const checkbox = document.getElementById(param);
+      const paramValue = getQueryParam(param);
+      if (paramValue === "true") {
+        checkbox.checked = true;
+      } else {
+        checkbox.checked = false;
+      }
+    });
+
+    // Prefill the dropdown (classification filter) based on the URL query parameter
+    const classificationValue = getQueryParam("classification");
+    const classificationDropdown = document.getElementById(
+      "classification_filter"
+    );
+    if (classificationValue) {
+      for (let option of classificationDropdown.options) {
+        if (option.value === classificationValue) {
+          option.selected = true; // Select the matching option
+          break;
+        }
+      }
+    }
+  }
+
+  // Function to prefill the search input field
+  function prefillSearch() {
+    const searchQuery = getQueryParam("name"); // Get the 'name' query parameter
+    if (searchQuery) {
+      document.getElementById("compact_filter_phrase").value = searchQuery; // Set the input field value
+    }
+  }
+
+  function addHeroSection() {
+    const wrapper = document.querySelector("#wrapper");
+    if (wrapper && !document.querySelector(".ja1-hero-section")) {
+      const heroSection = document.createElement("div");
+      heroSection.className = "ja1-hero-section";
+
+      heroSection.innerHTML = `
+        <div class="ja1-hero-content">
+          <h1 class="ja1-hero-title">Recursos</h1>
+          <form id="filter_form" action="/library" method="GET">
+              <!-- Search Query -->
+  
+              <!-- Classification Filter -->
+              <p>
+                  <label for="classification_filter">Tipo de recurso</label>
+                  <select
+                  name="classification"
+                  id="classification_filter"
+                  >
+                  <option value="All" selected>Todos los tipos</option>
+                  <option value="Audio/Podcast">Audio/Podcast</option>
+                  <option value="Question bank">Banco de preguntas</option>
+                  <option value="Survey question bank">
+                      Banco de preguntas de la encuesta
+                  </option>
+                  <option value="Rubric">Baremo</option>
+                  <option value="Certificate">Certificado</option>
+                  <option value="Document">Documento</option>
+                  <option value="Grading scale">Escala de calificaciones</option>
+                  <option value="Google doc">Google doc</option>
+                  <option value="Competencies">Habilidades</option>
+                  <option value="Spreadsheet">Hoja de cálculos</option>
+                  <option value="Picture">Imagen</option>
+                  <option value="Badge">Insignia</option>
+                  <option value="Lesson">Lección</option>
+                  <option value="HTML package">Paquete HTML</option>
+                  <option value="SCORM package">Paquete SCORM</option>
+                  <option value="PDF">PDF</option>
+                  <option value="Content template">Plantilla de contenido</option>
+                  <option value="Class template">Plantilla de curso</option>
+                  <option value="Powerpoint">Powerpoint</option>
+                  <option value="Page">Página</option>
+                  <option value="Web resource">Recurso web</option>
+                  <option value="Assignment">Tarea</option>
+                  <option value="Video">Vídeo</option>
+                  </select>
+              </p>
+  
+              <!-- Checkbox Filters -->
+              <fieldset class="ja1-search-fieldset">
+                  <legend>Biblioteca</legend>
+  
+                  <input
+                  type="checkbox"
+                  name="school"
+                  id="school"
+                  value="true"
+                  checked
+                  />
+                  <label for="school">Empresa</label>
+  
+                  <input
+                  type="checkbox"
+                  name="all"
+                  id="all"
+                  value="true"
+                  checked
+                  />
+                  <label for="all">Integrado</label>
+  
+                  <input
+                  type="checkbox"
+                  name="favorites"
+                  id="favorites"
+                  value="true"
+                  checked
+                  />
+                  <label for="favorites">Favoritos</label>
+  
+                  <input
+                  type="checkbox"
+                  name="personal"
+                  id="personal"
+                  value="true"
+                  checked
+                  />
+                  <label for="personal">Personal</label>
+  
+                  <input
+                  type="checkbox"
+                  name="all_personal"
+                  id="all_personal"
+                  value="true"
+                  />
+                  <label for="all_personal">Todas las bibliotecas personales</label>
+              </fieldset>
+  
+              <!-- Submit Button -->
+  
+              <p>
+                  <input
+                  id="compact_filter_phrase"
+                  name="name"
+                  type="text"
+                  placeholder="Escribe tu búsqueda..."
+                  />
+                  <button type="submit" class="ja1-search-button">Buscar</button>
+              </p>
+              </form>
+  
+        </div>
+      `;
+
+      wrapper.insertAdjacentElement("beforebegin", heroSection);
+    }
+  }
+
+  // Initialize on big screens and route changes
+  if (window.innerWidth >= 768) {
+    const currentPath = window.location.pathname;
+    alert(currentPath);
+
+    if (currentPath === "/library") {
+      addHeroSection();
+      prefillSearch();
+      prefillForm();
+    } else {
+      removeHeroSection();
+    }
+  }
+
+  if (window.innerWidth >= 768 && window.excaliburRouter) {
+    window.excaliburRouter.onRouteChange(() => {
+      const currentPath = window.location.pathname;
+      alert(currentPath);
+      if (currentPath === "/library") {
+        addHeroSection();
+        prefillSearch();
+        prefillForm();
+      } else {
+        removeHeroSection();
+      }
+    });
+  }
+</script>

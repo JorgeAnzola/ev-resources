@@ -447,3 +447,48 @@
     border: 0px!important;
     border-radius: 0px;
   }
+
+
+  .ja1-hero-section {
+    background-color: #f8f4e8; /* Beige background */
+    padding: 70px 20px; /* Add padding for spacing */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top:80px;
+  }
+  
+  .ja1-hero-section h1 {
+    font-size: 2.5rem; /* Large font size for the title */
+    color: #333; /* Dark text for contrast */
+    margin-bottom: 20px; /* Spacing below the title */
+  }
+  
+  .ja1-hero-section input[type="text"] {
+    width: 50%; /* Adjust width to make it more prominent */
+    max-width: 600px; /* Limit the max width */
+    min-width: 300px; /* Ensure it doesn't shrink too small */
+    padding: 10px 15px; /* Add padding for a better feel */
+    font-size: 1rem; /* Text size inside the input */
+    border: 1px solid #ddd; /* Subtle border */
+    border-radius: 25px; /* Rounded corners */
+  }
+  
+  .ja1-hero-section input[type="text"]::placeholder {
+    color: #aaa; /* Light gray placeholder text */
+    font-style: italic; /* Add a stylistic touch */
+  }
+  
+  .ja1-search-button {
+    border-radius: 0px;
+    background: red;
+    margin-bottom: 6px;
+  }
+  
+  .ja1-search-fieldset {
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    border-bottom: solid #E0E0E0 1px;
+  }
