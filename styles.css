@@ -577,4 +577,14 @@
   .ja1-calendar-block > .small_widget_links > a {
     padding: 15px;
   }
+
+  #widget_block_59391 {
+    width: calc((100% / 2) - 15px)!important;
+    display: block!important
+    
+  }
+  
+  .games_widget > .rightColumn {
+      display: block!important
+  }
 }
