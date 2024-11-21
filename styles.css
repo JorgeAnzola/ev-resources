@@ -561,11 +561,6 @@
     width: calc(100% / 2 - 15px) !important;
   }
 
-  .rightColumn,
-  .swiper-slide > .fiveBlocks {
-    display: block !important;
-  }
-
   .calendar_widget_moved {
     margin-top: 20px; /* Adjust spacing as needed */
   }
