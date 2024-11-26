@@ -1,4 +1,10 @@
+
 @media (min-width: 768px) {
+
+  :root {
+    --left-bar-bg: white!important;
+    }
+    
   body {
     font-family: "EVText", sans-serif;
   }
@@ -87,7 +93,7 @@
   .rightColumn,
   .swiper-slide > .fiveBlocks,
   .calendar_btn {
-    display: none !important;
+    /* display: none !important; */
   }
 
   .profile_background {
@@ -168,7 +174,7 @@
   }
 
   #leftColumn {
-    display: none;
+    /* display: none; */
   }
 
   #wrapper > footer {
@@ -520,7 +526,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-top: 80px;
+    margin-top: -10px;
   }
 
   .ja1-hero-section h1 {

@@ -1,0 +1,36 @@
+<script>
+
+    function loadCalendarWidget() {
+      // Select the calendar block in the right column
+      const calendarBlock = document.querySelector('.rightColumn .block .fa-calendar-day')?.closest('.block');
+      
+      // Select the games widget to insert the calendar block next to
+      const gamesWidget = document.querySelector('.block.tile_width_widget.games_widget');
+    
+      // Ensure both the calendar block and games widget exist before proceeding
+      if (calendarBlock && gamesWidget) {
+        // Clone the calendar block to preserve its styles and scripts
+        const calendarBlockClone = calendarBlock.cloneNode(true);
+    
+    calendarBlockClone.classList.add('ja1-calendar-block');
+        
+        // Insert the calendar block before the games widget in the DOM
+        gamesWidget.parentNode.insertBefore(calendarBlockClone, gamesWidget.nextSibling);
+        
+        // Optionally, remove the original calendar block from the right column
+        calendarBlock.remove();
+      } else {
+        console.warn("Calendar block or games widget not found!");
+      }
+    }
+    
+    if (window.innerWidth >= 768) {
+        loadCalendarWidget();
+  }
+
+  if (window.innerWidth >= 768 && window.excaliburRouter) {
+    window.excaliburRouter.onRouteChange(() => {
+        loadCalendarWidget();
+    });
+  }
+    </script>

@@ -1,7 +1,5 @@
 <script>
-  function removeHeroSection() {
-    alert("remove hero section");
-  }
+
   // Function to get the query parameter from the URL
   function getQueryParam(param) {
     const urlParams = new URLSearchParams(window.location.search);
@@ -160,7 +158,7 @@
                   id="compact_filter_phrase"
                   name="name"
                   type="text"
-                  placeholder="Escribe tu búsqueda..."
+                  placeholder="Escribe tu b&#250;squeda..."
                   />
                   <button type="submit" class="ja1-search-button">Buscar</button>
               </p>
@@ -175,29 +173,17 @@
 
   // Initialize on big screens and route changes
   if (window.innerWidth >= 768) {
-    const currentPath = window.location.pathname;
-    alert(currentPath);
-
-    if (currentPath === "/library") {
       addHeroSection();
       prefillSearch();
       prefillForm();
-    } else {
-      removeHeroSection();
-    }
   }
 
   if (window.innerWidth >= 768 && window.excaliburRouter) {
     window.excaliburRouter.onRouteChange(() => {
-      const currentPath = window.location.pathname;
-      alert(currentPath);
-      if (currentPath === "/library") {
+
         addHeroSection();
         prefillSearch();
         prefillForm();
-      } else {
-        removeHeroSection();
-      }
     });
   }
 </script>
