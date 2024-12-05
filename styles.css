@@ -4,7 +4,7 @@
   :root {
     --left-bar-bg: white!important;
     }
-    
+
   body {
     font-family: "EVText", sans-serif;
   }
@@ -21,7 +21,8 @@
 
   .modern_module_row > td,
   .modern_module_row > td > a:hover,
-  .modern_module_wrap:hover {
+  .modern_module_wrap:hover.
+  .user_boxes > a {
     border-radius: 0px !important;
     border: 0px;
   }
@@ -32,7 +33,7 @@
   }
 
   .completed {
-    background: #82c59c !important;
+    background: #666666 !important;
     color: white !important;
   }
 
@@ -592,5 +593,17 @@
   
   .games_widget > .rightColumn {
       display: block!important
+  }
+
+  #highcharts-ozbzu70-34 > svg > g.highcharts-series-group > g.highcharts-series.highcharts-series-0.highcharts-pie-series.highcharts-tracker > path:nth-child(1), #highcharts-ozbzu70-23 > svg > g.highcharts-series-group > g.highcharts-series.highcharts-series-0.highcharts-pie-series.highcharts-tracker > path.highcharts-point.highcharts-color-0, #highcharts-ozbzu70-46 > svg > g.highcharts-series-group > g.highcharts-series.highcharts-series-0.highcharts-pie-series.highcharts-tracker > path:nth-child(1), #highcharts-ozbzu70-51 > svg > g.highcharts-series-group > g.highcharts-series.highcharts-series-0.highcharts-pie-series.highcharts-tracker > path {
+    fill: #666666!important;
+  }
+  
+  .lesson-body-content {
+    margin-top: 60px;
+  }
+
+  .post_wrap {
+    color: black!important;
   }
 }
