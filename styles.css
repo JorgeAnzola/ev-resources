@@ -595,7 +595,7 @@
       display: block!important
   }
 
-  #highcharts-ozbzu70-34 > svg > g.highcharts-series-group > g.highcharts-series.highcharts-series-0.highcharts-pie-series.highcharts-tracker > path:nth-child(1), #highcharts-ozbzu70-23 > svg > g.highcharts-series-group > g.highcharts-series.highcharts-series-0.highcharts-pie-series.highcharts-tracker > path.highcharts-point.highcharts-color-0, #highcharts-ozbzu70-46 > svg > g.highcharts-series-group > g.highcharts-series.highcharts-series-0.highcharts-pie-series.highcharts-tracker > path:nth-child(1), #highcharts-ozbzu70-51 > svg > g.highcharts-series-group > g.highcharts-series.highcharts-series-0.highcharts-pie-series.highcharts-tracker > path {
+  .highcharts-container > svg > g.highcharts-series-group > g.highcharts-series.highcharts-series-0.highcharts-pie-series.highcharts-tracker > path:nth-child(1), .highcharts-container > svg > g.highcharts-series-group > g.highcharts-series.highcharts-series-0.highcharts-pie-series.highcharts-tracker > path.highcharts-point.highcharts-color-0, .highcharts-container > svg > g.highcharts-series-group > g.highcharts-series.highcharts-series-0.highcharts-pie-series.highcharts-tracker > path:nth-child(1), #highcharts-ozbzu70-51 > svg > g.highcharts-series-group > g.highcharts-series.highcharts-series-0.highcharts-pie-series.highcharts-tracker > path, .highcharts-container > svg > g.highcharts-series-group > g.highcharts-series.highcharts-series-0.highcharts-pie-series.highcharts-tracker > path.highcharts-point.highcharts-color-2 {
     fill: #666666!important;
   }
   
